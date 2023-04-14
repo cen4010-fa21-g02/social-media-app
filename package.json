@@ -23,5 +23,13 @@
     "nodemon": "^2.0.22",
     "socket.io": "^4.5.1",
     "validator": "^13.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cen4010-fa21-g02/social-media-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cen4010-fa21-g02/social-media-app/issues"
+  },
+  "homepage": "https://github.com/cen4010-fa21-g02/social-media-app#readme"
 }
