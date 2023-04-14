@@ -14,15 +14,19 @@ import HorizontalStack from "../util/HorizontalStack";
 import PostBrowser from "../PostBrowser";
 
 const ExploreView = () => {
-  return (
-    <Container>
-      <Navbar />
-      <GridLayout
-        left={<PostBrowser createPost contentType="posts" />}
-        right={<Sidebar />}
-      />
-    </Container>
-  );
+    return ( < Box sx = {
+            { padding: "20px", backgroundColor: "#F0F0F0", minHeight: "100vh" } } >
+        <
+        Navbar / >
+        <
+        GridLayout left = { < PostBrowser createPost contentType = "posts" / > }
+        right = { < Sidebar / > }
+        /> <
+        /Box>
+
+
+
+    );
 };
 
 export default ExploreView;

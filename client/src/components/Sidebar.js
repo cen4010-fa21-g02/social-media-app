@@ -10,13 +10,17 @@ import PostCard from "./PostCard";
 import TopPosts from "./TopPosts";
 
 const Sidebar = () => {
-  return (
-    <Stack spacing={2}>
-      <TopPosts />
-      <FindUsers />
-      <Footer />
-    </Stack>
-  );
+    return ( <
+        Stack spacing = { 8 } >
+        <
+        TopPosts / >
+        <
+        FindUsers / >
+        <
+        Footer / >
+        <
+        /Stack>
+    );
 };
 
 export default Sidebar;
