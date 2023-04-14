@@ -1,17 +1,17 @@
-import { Typography } from "@mui/material";
-import React from "react";
-import { Link } from "react-router-dom";
+import { Box, Typography } from "@mui/material";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 const Copyright = () => {
-    return ( <
-        Typography variant = "subtitle1"
-        color = "text.secondary" >
-        Copyright© 2023 { " " } <
-        Link to = "/"
-        color = "inherit" >
-        Hobbly <
-        /Link> < /
-        Typography >
+    return (
+        <Box display="flex" alignItems="center">
+            <GitHubIcon sx={{ fontSize: 18, mr: 1 }} />
+            <Typography variant="subtitle1" color="text.secondary">
+                Github{" "}
+                <a href="https://github.com/cen4010-fa21-g02/social-media-app" target="_blank" rel="noopener noreferrer">
+                    Hobbly
+                </a>
+            </Typography>
+        </Box>
     );
 };
 
