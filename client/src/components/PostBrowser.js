@@ -12,6 +12,8 @@ import PostCard from "./PostCard";
 import SortBySelect from "./SortBySelect";
 import HorizontalStack from "./util/HorizontalStack";
 
+//Peer Reviewd by Manny
+
 const PostBrowser = (props) => {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(true);

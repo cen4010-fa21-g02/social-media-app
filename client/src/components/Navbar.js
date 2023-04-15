@@ -24,6 +24,8 @@ import UserAvatar from "./UserAvatar";
 import HorizontalStack from "./util/HorizontalStack";
 import { RiContrast2Line } from "react-icons/ri";
 
+//Peer Reviewd by Manny
+
 const Navbar = () => {
     const navigate = useNavigate();
     const user = isLoggedIn();
@@ -115,7 +117,6 @@ const Navbar = () => {
                     /> < /
                     Box > <
                     /div>
-
 
                 )
             }

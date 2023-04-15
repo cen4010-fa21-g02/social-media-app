@@ -6,6 +6,7 @@ import Navbar from "../Navbar";
 import PostBrowser from "../PostBrowser";
 import Sidebar from "../Sidebar";
 
+//Peer Reviewed by Manny 
 const SearchView = () => {
   return (
     <Container>
