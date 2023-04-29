@@ -175,8 +175,7 @@ const Navbar = () => {
                 Login <
                 /Button> < / >
             )
-        } <
-        /HorizontalStack> < /
+        } </HorizontalStack> < /
     Stack > {
             navbarWidth && searchIcon && ( <
                 Box component = "form"
@@ -190,8 +189,8 @@ const Navbar = () => {
                 /> < /
                 Box >
             )
-        } <
-        /Stack>
+        }
+     </Stack>
 );
 };
 

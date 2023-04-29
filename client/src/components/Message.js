@@ -11,11 +11,12 @@ const Message = (props) => {
   let styles = {};
   if (message.direction === "to") {
     styles = {
+      messageColor: "rgba(255, 255, 255, 0.12)",
       justifyContent: "flex-start",
     };
   } else if (message.direction === "from") {
     styles = {
-      messageColor: theme.palette.grey["100"],
+      messageColor: "rgba(0, 120, 254)",
       justifyContent: "flex-end",
     };
   }

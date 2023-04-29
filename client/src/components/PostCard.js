@@ -107,7 +107,7 @@ const PostCard = (props) => {
         spacing = { 1 }
         sx = {
             {
-                backgroundColor: "grey.100",
+                backgroundColor: "rgba(255, 255, 255, 0.12)",
                 width: "50px",
                 padding: theme.spacing(1),
             }
