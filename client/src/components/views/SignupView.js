@@ -85,68 +85,77 @@ const SignupView = () => {
             }
         } >
 
-        <Stack alignItems="center" >
-            <Typography variant="h2"
-                color="text.secondary"
-                sx={
-                    { mb: 6 }
-                } >
-                <Link to="/"
-                    color="inherit"
-                    underline="none" >
-                    Hobbly
-                </Link>
-            </Typography>
-            <Typography variant="h5"
-                gutterBottom >
-                Sign Up
-            </Typography>
-            <Typography color="text.secondary" >
-                Already have an account? <Link to="/login" > Login</Link>
-            </Typography >
-            <Box component="form"
-                onSubmit={handleSubmit} >
-                <TextField label="Username"
-                    fullWidth margin="normal"
-                    autoFocus required id="username"
-                    name="username"
-                    onChange={handleChange}
-                    error={errors.username !== undefined}
-                    helperText={errors.username} />
-                <TextField label="Email Address"
-                    fullWidth margin="normal"
-                    autoComplete="email"
-                    required id="email"
-                    name="email"
-                    onChange={handleChange}
-                    error={errors.email !== undefined}
-                    helperText={errors.email} />
-                <TextField label="Password"
-                    fullWidth required margin="normal"
-                    autoComplete="password"
-                    id="password"
-                    name="password"
-                    type="password"
-                    onChange={handleChange}
-                    error={errors.password !== undefined}
-                    helperText={errors.password} />
-                <ErrorAlert error={serverError} />
-                <Button type="submit"
-                    fullWidth variant="contained"
-                    sx={
-                        { my: 2 }
-                    } >
-                    Sign Up
-                </Button>
-            </Box >
-            <Box sx={
-                { mt: 3 }
-            } >
-                <
-                    Copyright />
-            </Box>
-        </Stack>
-    </Container>
+        <
+        Stack alignItems = "center" >
+        <
+        Typography variant = "h2"
+        color = "text.secondary"
+        sx = {
+            { mb: 6 }
+        } >
+        <
+        Link to = "/"
+        color = "inherit"
+        underline = "none" >
+        Hobbly <
+        /Link> < /
+        Typography > <
+        Typography variant = "h5"
+        gutterBottom >
+        Sign Up <
+        /Typography>   <
+        Typography color = "text.secondary" >
+        Already have an account ? < Link to = "/signup" > Login < /Link> < /
+        Typography > <
+        Box component = "form"
+        onSubmit = { handleSubmit } >
+        <
+        TextField label = "Username"
+        fullWidth margin = "normal"
+        autoFocus required id = "username"
+        name = "username"
+        onChange = { handleChange }
+        error = { errors.username !== undefined }
+        helperText = { errors.username }
+        /> <
+        TextField label = "Email Address"
+        fullWidth margin = "normal"
+        autoComplete = "email"
+        required id = "email"
+        name = "email"
+        onChange = { handleChange }
+        error = { errors.email !== undefined }
+        helperText = { errors.email }
+        /> <
+        TextField label = "Password"
+        fullWidth required margin = "normal"
+        autoComplete = "password"
+        id = "password"
+        name = "password"
+        type = "password"
+        onChange = { handleChange }
+        error = { errors.password !== undefined }
+        helperText = { errors.password }
+        /> <
+        ErrorAlert error = { serverError }
+        /> <
+        Button type = "submit"
+        fullWidth variant = "contained"
+        sx = {
+            { my: 2 }
+        } >
+        Sign Up <
+        /Button> < /
+        Box > <
+        Box sx = {
+            { mt: 3 }
+        } >
+        <
+        Copyright / >
+        <
+        /Box> < /
+        Stack > <
+        /Container>
     );
 };
 
