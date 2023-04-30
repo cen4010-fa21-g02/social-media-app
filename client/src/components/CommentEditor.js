@@ -73,9 +73,9 @@ const CommentEditor = ({ label, comment, addComment, setReplying }) => {
             rows={5}
             required
             name="content"
-            style={{ backgroundColor: "rgba(255, 255, 255, 0.12)" }}
+            style={{ backgroundColor: "#2E2E2F" }}
             sx={{
-              backgroundColor: theme.palette.primary.main 
+              backgroundColor: "#2E2E2F"
 
             }} 
             onChange={handleChange}
@@ -91,7 +91,7 @@ const CommentEditor = ({ label, comment, addComment, setReplying }) => {
             disabled={loading}
             sx={{
               mt: 2,
-              backgroundColor: theme.palette.primary.main 
+              backgroundColor: "#2E2E2F"
 
             }}
           >
