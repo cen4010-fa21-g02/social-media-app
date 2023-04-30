@@ -93,7 +93,7 @@ const PostEditor = () => {
             error={errors.content !== undefined}
             helperText={errors.content}
             sx={{
-              backgroundColor: theme.palette.primary.main 
+              backgroundColor: "#2E2E2F" 
 
             }}            
             required
@@ -106,7 +106,7 @@ const PostEditor = () => {
             disabled={loading}
             sx={{
               mt: 2,
-              backgroundColor: theme.palette.primary.main 
+              backgroundColor: "#2E2E2F"
 
             }}
           >
