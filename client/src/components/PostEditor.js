@@ -92,6 +92,10 @@ const PostEditor = () => {
             onChange={handleChange}
             error={errors.content !== undefined}
             helperText={errors.content}
+            sx={{
+              backgroundColor: "#2E2E2F" 
+
+            }}            
             required
           />
           <ErrorAlert error={serverError} />
@@ -102,6 +106,8 @@ const PostEditor = () => {
             disabled={loading}
             sx={{
               mt: 2,
+              backgroundColor: "#2E2E2F"
+
             }}
           >
             {loading ? <>Submitting</> : <>Submit</>}

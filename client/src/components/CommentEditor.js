@@ -73,9 +73,11 @@ const CommentEditor = ({ label, comment, addComment, setReplying }) => {
             rows={5}
             required
             name="content"
+            style={{ backgroundColor: "#2E2E2F" }}
             sx={{
-              backgroundColor: "rgba(255, 255, 255, 0.12)",
-            }}
+              backgroundColor: "#2E2E2F"
+
+            }} 
             onChange={handleChange}
             onFocus={handleFocus}
             value={formData.content}
@@ -88,8 +90,9 @@ const CommentEditor = ({ label, comment, addComment, setReplying }) => {
             fullWidth
             disabled={loading}
             sx={{
-              backgroundColor: "rgba(255, 255, 255, 0.12)",
               mt: 2,
+              backgroundColor: "#2E2E2F"
+
             }}
           >
             {loading ? <div>Submitting</div> : <div>Submit</div>}
