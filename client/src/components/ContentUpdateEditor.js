@@ -34,7 +34,7 @@ const ContentUpdateEditor = (props) => {
           fullWidth
           margin="normal"
           name="content"
-          sx={{ backgroundColor: "white" }}
+          sx={{ backgroundColor: "rgba(255, 255, 255, 0.12)" }}
           onChange={handleChange}
           error={error.length !== 0}
           helperText={error}
@@ -43,7 +43,7 @@ const ContentUpdateEditor = (props) => {
         <Button
           type="submit"
           variant="outlined"
-          sx={{ backgroundColor: "white", mt: 1 }}
+          sx={{ backgroundColor: "rgba(255, 255, 255, 0.12)", mt: 1 }}
         >
           Update
         </Button>
